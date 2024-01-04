@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="container mt-4">
+<div class="container mt-4 d-flex justify-content-center ">
     <div class="row">
-        <div class="col-md-4 col-md-offset-4 ">
+        <div class="col-md-12 col-md-offset-4 ">
 
             @if(session('success'))
                 <div class="alert alert-success">
@@ -18,7 +18,7 @@
                 </div>
             @endif
 
-            <h4 class="text-center">Welcome To Dashboard</h4>
+            <h4 class="text-center" >Welcome To Dashboard</h4>
             <hr>
 
             <table class="table table-bordered">
